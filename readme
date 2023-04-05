@@ -1,0 +1,5 @@
+postgres build and run on docker:
+
+docker build -t postgres .
+
+docker run -d -p 5432:5432 --name postgresContainer postgres
